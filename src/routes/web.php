@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ContactController::class, 'top']);
+
+Route::get('/register', [ContactController::class, 'register']);
+
+Route::get('/login', [ContactController::class, 'login']);
+
+Route::get('/mypage', [ContactController::class, 'mypage']);
+
+Route::get('/profile', [ContactController::class, 'profile']);
+
+Route::get('/item', [ContactController::class, 'item']);

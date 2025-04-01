@@ -1,0 +1,35 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: lightcoral;
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    background-color: lightseagreen;
+    height: 100px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    background-color: lightgreen;
+    height: 300px;
+}
+
+aside {
+    width: 300px;
+    min-width: 300px;
+    margin: auto;
+    background-color: lightpink;
+    height: 300px;
+}

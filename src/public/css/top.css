@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    /* background-color: lightseagreen; */
+    height: 100px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    /* background-color: lightgreen; */
+    height: 300px;
+    padding: 0% 10%;
+}
+
+aside {
+    width: 20%;
+    min-width: 20%;
+    margin: auto;
+    /* background-color: lightpink; */
+    height: 100px;
+}
+
+
+button {
+    display: inline-block;
+    /* ボタンを横並びにする */
+    border: none;
+    /* 枠線をなくす */
+    border-radius: 5px;
+    /* 角丸をつける */
+    padding: 1% 40%;
+    /* ボタンの内側の余白 */
+    margin: 5px;
+    /* ボタン同士の余白 */
+    background-color: red;
+    /* ボタンの背景色 */
+    color: white;
+    /* ボタンの文字色 */
+    text-align: center;
+    /* ボタンのテキストを中央揃えにする */
+    text-decoration: none;
+    /* テキストに下線をつけない */
+    font-size: 15px;
+    /* テキストのフォントサイズ */
+    cursor: pointer;
+    /* マウスポインタを変更する */
+}
+
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: black;
+
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.ha {
+    text-align: center;
+}
