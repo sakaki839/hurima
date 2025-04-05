@@ -8,7 +8,7 @@
 </head>
 <body>
         <header>
-            
+            <img src="img/logo.svg" alt="coachtech">
         </header>
         <div class="flexbox-container">
             <aside>
