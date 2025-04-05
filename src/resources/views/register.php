@@ -74,10 +74,10 @@
           </div>
         </div>
         <div class="ha">
-          <button class="form__button-submit" type="submit">登録する</button>
+          <button class="form__button-submit" type="submit" href="./mypage/profile">登録する</button>
         </div>
 <div class=ha>
-     <a href="/mypage/profile">ログインはこちら</a>
+     <a href="./login">ログインはこちら</a>
 </div>
        
       </form>

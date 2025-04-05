@@ -20,8 +20,8 @@ Route::get('/register', [ContactController::class, 'register']);
 
 Route::get('/login', [ContactController::class, 'login']);
 
-Route::get('/mypage', [ContactController::class, 'mypage']);
+// Route::get('/mypage', [ContactController::class, 'mypage']);
 
-Route::get('/profile', [ContactController::class, 'profile']);
+Route::get('/mypage/profile', [ContactController::class, 'profile']);
 
 Route::get('/item', [ContactController::class, 'item']);

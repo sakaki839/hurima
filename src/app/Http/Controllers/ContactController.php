@@ -34,7 +34,7 @@ class ContactController extends Controller
 
 public function profile()
   {
-    return view('profile');
+    return view('/mypage/profile');
   }
 
  public function item()
