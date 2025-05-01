@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="ha">
-          <button class="btn2" type="button" >更新する</button>
+          <button class="btn2" type="button" onclick="location.href='/'">更新する</button>
         </div>
 
        

@@ -20,7 +20,8 @@
       <div class="ha">
         <h2>会員登録</h2>
       </div>
-      <form class="form">
+      <form class="form" action="/top" method="post">
+        @csrf
         <div class="form__group">
           <div class="form__group-title">
             <span class="form__label--item">ユーザー名</span>
@@ -66,7 +67,7 @@
           </div>
           <div class="ha">
             <div class="form__input--text">
-              <input type="password" name="password" placeholder="" />
+              <input type="password" name="confirmation password" placeholder="" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -74,7 +75,7 @@
           </div>
         </div>
         <div class="ha">
-          <button class="btn" type="button" onclick="location.href='./mypage/profile'">登録する</button>
+          <button class="btn" type="button" onclick="location.href='./mypage/profile'" >登録する</button>
         </div>
 <div class=ha>
      <a href="./login">ログインはこちら</a>
