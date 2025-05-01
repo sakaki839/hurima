@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\ProfileRequest;
+use App\Models\Profile;
 
 class ProfileController extends Controller
 {
@@ -14,13 +15,14 @@ class ProfileController extends Controller
     public function mypage(Request $request)
   {
     //
-    $profile = $request->only(['name', 'email', 'password','password']);
+    $profile = $request->only(['name', 'post code', 'address','property']);
     return view('mypage', ['profile' => $profile]);
   }
 
    public function store()
    {
     //
-     $profile = $request->only(['name', 'email', 'password','password']);
+    $profile = $request->only(['name', 'post code', 'address','property']);
+    Profile::create($profile);
    }
 }
