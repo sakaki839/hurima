@@ -13,11 +13,6 @@ class ItemController extends Controller
     return view('top');
   }
 
-  public function mypage()
-  {
-    return view('mypage');
-  }
-
  public function item()
   {
     return view('item');

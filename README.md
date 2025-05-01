@@ -41,6 +41,9 @@ $ docker-compose run php bash
 # php artisan make:request ExhibitionRequest
 # exit
 
+# php artisan make:migration 
+# php artisan migrate
+
 
 ```
 

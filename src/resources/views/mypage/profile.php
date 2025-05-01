@@ -27,7 +27,8 @@
       <div class="ha">
         <h2>プロフィール設定</h2>
       </div>
-      <form class="form">
+      <form class="form" action="/mypage" method="post">
+        @csrf
         <div class="form__group">
           <div class="form__group-title">
             <span class="form__label--item">ユーザー名</span>

@@ -10,4 +10,17 @@ class ProfileController extends Controller
   {
     return view('/mypage/profile');
   }
+
+    public function mypage(Request $request)
+  {
+    //
+    $profile = $request->only(['name', 'email', 'password','password']);
+    return view('mypage', ['profile' => $profile]);
+  }
+
+   public function store()
+   {
+    //
+     $profile = $request->only(['name', 'email', 'password','password']);
+   }
 }
