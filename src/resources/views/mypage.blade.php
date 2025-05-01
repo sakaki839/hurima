@@ -31,15 +31,14 @@
         <div class="flexbox-container">
             
         <main>
-                <?php print_r($mypage) ?>
+                
          <span class="am">
               <div class="m"></div>
          </span>
          <span class="a78">
              <span class="a8">
                 <h3>
-                 <input type="text" name="name" value="{{ $mypage['name'] }}" readonly/>
-                    <!-- ユーザー名 -->
+                    ユーザー名
                 </h3>
             </span>
             <span>
